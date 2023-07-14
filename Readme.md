@@ -34,5 +34,5 @@ Game AI: Guiding characters or agents to navigate game environments efficiently.
 To use the A* algorithm, you need to provide a graph representation and implement the necessary functions to generate neighboring nodes, calculate tentative scores, and apply heuristics.
 
 
-###Conclusion
+### Conclusion
 The A* algorithm is a powerful tool for finding the shortest path in graphs. Its efficiency and optimality make it widely used in various domains, such as navigation systems, game development, and robotics. By understanding and implementing the A* algorithm, you can enhance your applications with efficient pathfinding capabilities.
