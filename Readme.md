@@ -1,12 +1,12 @@
-#Project Overview
+# Project Overview
 
 The A* pathfinding algorithm is a well-known informed search algorithm recognized for its effectiveness in finding the shortest path between two points within a graph. Our project aims to harness the capabilities of A* by developing a visual representation of the algorithm. Through an interactive grid, users can position start, stop, and barrier nodes, allowing A* to navigate and identify the optimal path.
 
 
-##A* Algorithm
+## A* Algorithm
 The A* algorithm is a popular pathfinding algorithm used in computer science and artificial intelligence to find the shortest path between two points in a graph. It combines the best features of Dijkstra's algorithm and Greedy Best-First Search, making it efficient and capable of finding optimal paths.
 
-###How It Works
+### How It Works
 Initialize the algorithm with an open list and a closed list.
 Place the starting node on the open list and set its score to zero.
 While the open list is not empty:
@@ -22,10 +22,10 @@ If there is no path from the start to the target, terminate the algorithm.
 Reconstructing the Shortest Path
 After the algorithm terminates, the shortest path can be reconstructed by following the parent pointers from the target node back to the start node.
 
-###Heuristics
+### Heuristics
 A* algorithm uses heuristics to estimate the cost from a node to the target node. It is crucial to choose an admissible heuristic that never overestimates the actual cost to ensure optimality.
 
-###Usage
+### Usage
 The A* algorithm has various applications, including:
 
 Route planning: Finding the shortest path from one location to another.
